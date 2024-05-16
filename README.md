@@ -1,5 +1,5 @@
 ## Projeto construido durante o curso Full Stack Java 
 
-<img src="">
+<img src="https://raw.githubusercontent.com/vivianezzt/vivifest/main/src/images/formatura-ads.png">
 
-### Escola de Programação <a href="">EBAC &copy;<a> 
+### Escola de Programação <a href="https://ebaconline.com.br/full-stack-java">EBAC &copy;<a> 
