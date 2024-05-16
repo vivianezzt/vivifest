@@ -6,9 +6,24 @@
     &--frontend{
         background-image: linear-gradient(variables.$color1, variables.$color2);
     }
+    &--ux-ui{
+        background-image: linear-gradient(variables.$color2, variables.$pink3);
+    }
+    &--data-science{
+        background-image: linear-gradient(variables.$pink3, variables.$yellow);
+    }
+    &--backend{
+        background-image: linear-gradient(variables.$yellow, variables.$pink3);
+    }
+    &--image-left{
+        .container{
+            flex-direction: row-reverse;
 
+        }
+    }
     .container{
         display: flex;
+        gap: 40px;
     }
    
     &__image{
@@ -16,7 +31,7 @@
         border-radius: 10px;
     }
     &__details{
-        margin-right: 40px;
+        //margin-right: 40px;
 
         &__title{
             font-size: 18px;

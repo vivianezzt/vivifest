@@ -9,13 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles/main.scss">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Vivi Fest</title>
 </head>
 <body>
     <header class="hero">
         <div class="container">
             <img class="hero__logo" src="images/Viviane-transformed.png" alt="Vivi Fest">
-            <p class="hero__text">O maior evento de tecnologia do Brasil começa em 29 de maio de 2024</p>
+            <p class="hero__text">Formatura em Análise e Desenvolvimento de Sistemas em (31/12/2024) 
+               <br> <span id="contador"></span> </p>
             <div class="infos-bar">
                 <ul class="infos-bar__infos">
                     <li class="infos-bar__infos__item">
@@ -36,15 +38,52 @@
         </div>
     </header>
   
-    <section class="event">
-        <div class="container">
+    <section class="event event--frontend">
+        <div class="container" data-aos="fade-right">
             <div event__details>
                 <h2 class="event__details__title">Sobre Mim</h2>
-                <p class="event__details_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error id unde modi, ratione asperiores nostrum culpa labore sapiente reiciendis ullam fuga dolor quae sunt molestiae delectus rerum eius recusandae quis</p>
+                <p class="event__details_description">Graduada em Análise e desenvolvimento de Sistemas, inglês avançado, Pós em Arquitetura de e desenvolvimento de sistemas e padrões de projetos, tecnologias Java, Nodejs, Next.js, React, Javascript </p>
             </div>
             <img class="event__image" src="./images/viviane.jpg" alt="Viviane">
         </div>
     </section>
+
+    <section class="event event--ux-ui event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div event__details>
+                <h2 class="event__details__title">Profissão</h2>
+                <p class="event__details_description">Mais do que nunca, o profissional de análise e desenvolvimento de sistemas deve ser capaz de atender a diversas demandas e manter-se conectado com os avanços tecnológicos que surgem a cada dia. E para desenvolver ao máximo seu potencial, isso deve ser feito na prática. Por isso, desde o início das aulas no 1º ano do seu curso, por meio de projetos reais, você vai conhecer e utilizar as mais diversas, importantes e avançadas ferramentas e técnicas disponíveis no mercado para modelagem de sistemas e bancos de dados, gestão de projetos e desenvolvimento web. Depois, no 2º ano prepare-se para aprender a integrar seus sistemas, explorando e colocando em prática novas tecnologias como Big Data, Internet das Coisas, Inteligência Artificial, Cloud Computing e Aplicativos Móveis.</p>
+            </div>
+            <img class="event__image" src="./images/profissao.jpg" alt="Viviane">
+        </div>
+    </section>
+
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div event__details>
+                <h2 class="event__details__title">Formatura</h2>
+                <p class="event__details_description">
+                    Em um mercado que cresce a cada ano, as oportunidades de ascensão profissional são muito promissoras. O curso tecnólogo em Análise e Desenvolvimento de Sistemas possibilita uma variedade interessante de áreas para atuar, que permite ao aluno desenvolver uma carreira de sucesso. 
+
+
+                    O profissional poderá atuar no mercado de informática, para o desenvolvimento de atividades técnicas, científicas e de gestão. Atuar como consultor, analista, desenvolvedor, prestador de serviços em empresas do setor público, privado, empresas de Tecnologia da Informação (TI) e de telecomunicações, além de poder atuar no direcionamento, acompanhamento e validação de softwares.</p>
+            </div>
+            <img class="event__image" src="./images/formatura.jpg" alt="Viviane">
+        </div>
+    </section>
+
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div event__details>
+                <h2 class="event__details__title">Sistema operacional</h2>
+                <p class="event__details_description">Fedora (conhecido como Fedora Core antes da versão 7é um sistema operacional(pt-BR) ou sistema operativo(pt-PT?) Linux. O sistema operacional Fedora Linux é software livre e de código aberto, e os programas disponíveis dentro de seu repositório de programas também são programas livres que aderem a uma licença livre.
+
+                    O Fedora Linux existe desde 2003, e seu desenvolvimento e suporte é oferecido pela comunidade do Projeto Fedora.Após ter descontinuado o sistema operacional Red Hat Linux, a Red Hat patrocina o desenvolvimento do sistema operacional Fedora, envolvendo-se no desenvolvimento de vários programas disponíveis para o Fedora, que são eventualmente adicionados para o repositório do Red Hat Enterprise Linux,que é a distribuição Linux atual da empresa.</p>
+            </div>
+            <img class="event__image" src="./images/sistemaoperacional.jpg" alt="Viviane">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
